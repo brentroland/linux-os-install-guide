@@ -1,0 +1,67 @@
+IMPORTANT INFO AT THE BOTTOM OF THE PAGE PLS READ!!!
+
+i added a Linux os i really like it and its very nice and lightweight
+
+1. go to https://rufus.ie/en/ to download rufus or open it in the file
+
+2. download your preferred or custom iso file
+
+3. open rufus and insert your iso file
+
+4. select your usb drive
+
+5. wait a bit
+
+6. then when it is done safely eject the usb drive
+
+from 7 to 16 you are doing this for installation if you are using  alive environment skip this and go to 27
+7. open cmd as admin and type : diskpart
+
+8. then type : list disk
+
+9. remember your main SSD number or whichever number you want make sure its not a usb
+
+10. type : select disk _ (replace the underscore with the SSD or your main drive. it should be a number)
+
+11. then type list partitions
+
+12. then remember the number of the biggest partition and type : select partition _ (replace the underscore with the partition number)
+
+13. after its selected shrink the partition using shrink : desired=size (the size is in MB 1 GB = 1000 MB. for most Linux os's i suggest 30000MB (30 GB) minimum there's not really a max)
+
+14. then however much you shrank keep that in mind
+
+15. then type : create partition primary size=(however much MB you shrunk it)
+
+16. then type : exit then type : diskpart
+
+17. and type : list disk
+
+18. remember the disk number you added the partition to and type : select disk _ (your disk number you have)
+
+and type : list partition
+
+and look at the one that has the same size as you made one earlier and remember the number (write it down)
+
+19. then exit you don't need to worry about formatting and i will get to that later
+
+20. take a picture and follow next steps
+
+21. hit the windows button and while holding shift press the power menu button and select restart hold shift till the
+blue screen shows up then navigate to bootable devices and select your usb drive 
+
+22. then a black screen will show up (it can take up to 1-3 minutes) then select : try or install (your os you chose) 
+
+23. hit enter and select install (your os)
+
+24.  follow instructions and when you reach a section that talks about disks install it on your main disk but install it on the partition you made (the partition that has the same number as the one written down)
+
+25. then follow the rest and it and it should be installed
+
+26. it should boot right into the os you installed
+
+27. for the live option just click on the try live and it will work
+
+
+(as a side note search Microsoft recovery key for bit locker and write it down incase you need i needed it so i advise you do this.
+ also i didn't do it but i suggest make a backup or have a backup incase something goes wrong you don't want to lose your data)
