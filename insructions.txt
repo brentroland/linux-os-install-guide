@@ -1,8 +1,8 @@
 IMPORTANT INFO AT THE BOTTOM OF THE PAGE PLS READ!!!
 
-i added a Linux os i really like it and its very nice and lightweight
+i added a Linux os i really like it and its very nice and lightweight to get it search Kubuntu download
 
-1. go to https://rufus.ie/en/ to download rufus or open it in the file
+1. go to https://rufus.ie/en/
 
 2. download your preferred or custom iso file
 
