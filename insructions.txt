@@ -2,9 +2,9 @@ IMPORTANT INFO AT THE BOTTOM OF THE PAGE PLS READ!!!
 
 i added a Linux os i really like it and its very nice and lightweight to get it search Kubuntu download
 
-1. go to https://rufus.ie/en/
+1. go to https://rufus.ie/en/ download and install
 
-2. download your preferred or custom iso file
+2. download your preferred or custom iso file or the kubuntu file you downloaded
 
 3. open rufus and insert your iso file
 
@@ -14,7 +14,8 @@ i added a Linux os i really like it and its very nice and lightweight to get it 
 
 6. then when it is done safely eject the usb drive
 
-from 7 to 16 you are doing this for installation if you are using  alive environment skip this and go to 27
+from 7 to 16 you are doing this for installation. if you are using  a live environment skip this and go to 27
+the reason you have to do the cmd steps is so you dont lose your data.
 7. open cmd as admin and type : diskpart
 
 8. then type : list disk
@@ -29,7 +30,7 @@ from 7 to 16 you are doing this for installation if you are using  alive environ
 
 13. after its selected shrink the partition using shrink : desired=size (the size is in MB 1 GB = 1000 MB. for most Linux os's i suggest 30000MB (30 GB) minimum there's not really a max)
 
-14. then however much you shrank keep that in mind
+14. then however much you shrunk keep that in mind
 
 15. then type : create partition primary size=(however much MB you shrunk it)
 
